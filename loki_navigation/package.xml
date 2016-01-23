@@ -16,7 +16,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <depend>loki_base</depend>
   <depend>raspicam_node</depend>
-  <depend>raspicam_node</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
