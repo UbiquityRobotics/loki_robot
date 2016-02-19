@@ -6,7 +6,7 @@ project(loki_navigation)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   loki_base
-  raspicam_node
+  raspicam
 )
 
 ## System dependencies are found with CMake's conventions
