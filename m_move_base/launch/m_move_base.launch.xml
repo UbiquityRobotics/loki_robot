@@ -17,7 +17,19 @@
   <arg name="viewer_user" default=""/>
     <!--viewer_user: The user account to use on the viewer processor. -->
 
-  <!-- Currently there are no additional nodes needed for Loki. -->
+  <!-- Convenience arguments: -->  
+  <arg name="ul" value="$(find ubiquity_launches)" />
+  <arg name="fs" value="fiducial_slam" />
+
+  <!-- Start fiducial_slam nodes (includes camera): -->
+  <include file="$(arg ul)/m_$(arg fs)/launch/m_$(arg fs).launch.xml" >
+    <arg name="robot_platform" value="$(arg robot_platform)" />
+    <arg name="robot_dir" value="$(arg robot_dir)" />
+    <arg name="robot_host" value="$(arg robot_host)" />
+    <arg name="robot_user" value="$(arg robot_user)" />
+    <arg name="viewer_host" value="$(arg viewer_host)" />
+    <arg name="viewer_user" value="$(arg viewer_user)" />
+  </include>
 
 </launch>
 
