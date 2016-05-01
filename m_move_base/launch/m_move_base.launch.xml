@@ -21,7 +21,7 @@
   <arg name="ul" value="$(find ubiquity_launches)" />
   <arg name="fs" value="fiducial_slam" />
 
-  <!-- Start fiducial_slam nodes (includes camera): -->
+  <!-- Start fiducial_slam nodes (includes camera):
   <include file="$(arg ul)/m_$(arg fs)/launch/m_$(arg fs).launch.xml" >
     <arg name="robot_platform" value="$(arg robot_platform)" />
     <arg name="robot_dir" value="$(arg robot_dir)" />
@@ -30,6 +30,6 @@
     <arg name="viewer_host" value="$(arg viewer_host)" />
     <arg name="viewer_user" value="$(arg viewer_user)" />
   </include>
-
+  -->
 </launch>
 
