@@ -2,8 +2,8 @@
 Changelog for package loki_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2017-12-27)
+------------------
 * add loki_nav, fix cmake errors
 * added launch files for base bringup
 * Started cleaning out old stuff.  Added loki_rviz_local_costmap.

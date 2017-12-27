@@ -2,8 +2,8 @@
 Changelog for package loki_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2017-12-27)
+------------------
 * make metapackage pull in all the subpackages
   you need to use exec_depend on all the subpackages in the metapackage
   otherwise the installing the metapackage won't pull in the others

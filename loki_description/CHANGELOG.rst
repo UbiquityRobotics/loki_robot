@@ -2,8 +2,8 @@
 Changelog for package loki_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2017-12-27)
+------------------
 * fix urdf mesh refrences
 * remove magni refs in loki_description
 * install meshes as well
