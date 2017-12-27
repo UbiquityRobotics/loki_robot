@@ -5,13 +5,13 @@
   </material>
 
   <link name="base_link">
-    <visual>
+<!--     <visual>
       <origin rpy="0 0 0" xyz="-0.271 0.1 0"/>
       <geometry>
         <mesh filename="package://ubiquity_launches/n_robot_state_publisher/meshes/bus_loki.dae"/>
       </geometry>
       <material name="white"/>
-    </visual>
+    </visual> -->
   </link>
 
   <link name="raspicam">
@@ -29,7 +29,7 @@
       <!-- Rotated here to make it face on the X axis and the top towards Z+ -->
       <origin rpy="1.5707 0 1.5707" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ubiquity_launches/n_robot_state_publisher/meshes/HCSR04.stl"/>
+        <mesh filename="package://loki_description/meshes/HCSR04.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
