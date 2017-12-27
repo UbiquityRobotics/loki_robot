@@ -10,3 +10,4 @@ install(DIRECTORY launch/
 
 install(DIRECTORY param/
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/param
+)
