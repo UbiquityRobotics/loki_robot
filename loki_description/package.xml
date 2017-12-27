@@ -2,7 +2,7 @@
 <package format="2">
   <name>loki_description</name>
   <version>0.0.0</version>
-  <description>The magni_description package</description>
+  <description>The loki_description package</description>
 
   <maintainer email="send2arohan@gmail.com">Rohan Agrawal</maintainer>
   <license>BSD</license>
