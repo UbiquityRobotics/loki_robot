@@ -16,6 +16,7 @@
   <exec_depend>loki_description</exec_depend>
   <exec_depend>loki_nav</exec_depend>
   <exec_depend>loki_teleop</exec_depend>
+  <exec_depend>loki_viz</exec_depend>
 
   <export>
     <!-- Other tools can request additional information be placed here -->
