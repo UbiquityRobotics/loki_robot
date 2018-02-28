@@ -4,5 +4,7 @@
          <param name="robot_width" value="0.093"/>
          <param name="robot_front_length" value="0.11"/>
          <param name="robot_back_length" value="0.22"/>
+	 <!-- Workaround for https://github.com/UbiquityRobotics/loki_base_node/issues/2 -->
+         <param name="min_angular_velocity" value="0.2"/>
     </node>
 </launch>
