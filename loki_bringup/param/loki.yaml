@@ -22,8 +22,8 @@ poll_rate: 25
 base_frame: base_link
 
 # === Robot drivetrain parameters
-wheel_diameter: 0.060
-wheel_track: 0.132
+wheel_diameter: 0.065
+wheel_spread: 0.15
 encoder_resolution: 3560
 gear_reduction: 1.0
 
